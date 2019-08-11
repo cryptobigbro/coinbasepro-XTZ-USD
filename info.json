@@ -1,0 +1,82 @@
+{
+    "instrument": {
+        "id": "XTZ-USD",
+        "exchange": "coinbasepro",
+        "status": "trading",
+        "exchange_info": {
+            "id": "XTZ-USD",
+            "base_currency": "XTZ",
+            "quote_currency": "USD",
+            "base_min_size": "1.00000000",
+            "base_max_size": "100000.00000000",
+            "quote_increment": "0.00010000",
+            "base_increment": "0.01000000",
+            "display_name": "XTZ/USD",
+            "min_market_funds": "10",
+            "max_market_funds": "100000",
+            "margin_enabled": false,
+            "post_only": false,
+            "limit_only": false,
+            "cancel_only": false,
+            "status": "online",
+            "status_message": ""
+        },
+        "base_asset": "XTZ",
+        "quote_asset": "USD"
+    },
+    "base_asset": {
+        "id": "XTZ",
+        "precision": 6,
+        "exchange_info": {
+            "id": "XTZ",
+            "name": "Tezos",
+            "min_size": "0.000001",
+            "status": "online",
+            "message": "",
+            "details": {
+                "type": "crypto",
+                "symbol": "\u03a4",
+                "network_confirmations": 60,
+                "sort_order": 53,
+                "crypto_address_link": "https://tzscan.io/{{address}}",
+                "crypto_transaction_link": "https://tzscan.io/{{txId}}",
+                "push_payment_methods": [
+                    "crypto"
+                ],
+                "min_withdrawal_amount": 1
+            },
+            "max_precision": "0.000001"
+        }
+    },
+    "quote_asset": {
+        "id": "USD",
+        "precision": 2,
+        "exchange_info": {
+            "id": "USD",
+            "name": "United States Dollar",
+            "min_size": "0.01",
+            "status": "online",
+            "message": "",
+            "details": {
+                "type": "fiat",
+                "symbol": "$",
+                "sort_order": 1,
+                "push_payment_methods": [
+                    "bank_wire",
+                    "fedwire",
+                    "swift_bank_account",
+                    "intra_bank_account"
+                ],
+                "display_name": "US Dollar",
+                "group_types": [
+                    "fiat",
+                    "usd"
+                ]
+            },
+            "max_precision": "0.01",
+            "convertible_to": [
+                "USDC"
+            ]
+        }
+    }
+}
